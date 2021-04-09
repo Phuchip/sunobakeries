@@ -23,9 +23,13 @@ class Home extends CI_Controller {
 		$result['displq']=$this->m_san_pham->displayrecordsBysx($lq);
 		$this->load->view('detail/san_pham_chi_tiet',$result,$data);
 	}
-	public function user()
+	public function login()
 	{
 		$this->load->view('user/Dang_nhap');
+	}
+	public function registration()
+	{
+		$this->load->view('user/Dang_ky');
 	}
 	public function do_lam_banh()
 	{

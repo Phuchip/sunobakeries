@@ -4,13 +4,13 @@
         <div id="main-menu-wp" class="fl-right">
             <ul id="main-menu" class="clearfix">
                 <li>
-                    <a href="<?php echo base_url('user/Dang_nhap.php') ?>" title="" id="login">Đăng nhập</a>
+                    <a href="<?php echo base_url('home/login') ?>" title="" id="login">Đăng nhập</a>
                 </li>
                 <li>
                     <a title="">hoặc</a>
                 </li>
                 <li>
-                    <a href="dang_ky.php" title="" id="res">Đăng ký</a>
+                    <a href="<?php echo base_url('home/registration') ?>" title="" id="res">Đăng ký</a>
                 </li>
             </ul>
         </div>
